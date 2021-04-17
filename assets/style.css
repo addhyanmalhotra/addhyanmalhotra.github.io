@@ -223,7 +223,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #ddcfcc;
+    background-color:transparent;
     border-radius: 10px;
   }
   .coffee-header__buttons {
