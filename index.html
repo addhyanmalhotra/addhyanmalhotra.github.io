@@ -32,13 +32,18 @@
     <div id="paper-front">
       <div class="hamburger" id="ham"><span></span></div>
       <div id="container">
-        <section>
+        <section class="text-center" style="align-items: center;">
           <div id="alerts"></div>
-          <h1>Addhyan Malhotra</h1>
-          <p>CSE Undergrad at National Institute of Technology, Karnataka</p>
-          <h2>Give me coffee...</h2>
-
-            <div  class="button-section">
+          <h1>Hi I'm Addhyan Malhotra</h1>
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 col-sm-12 py-2">
+              <p>A CSE Undergrad at National Institute of Technology, Karnataka experienced in Full Stack as well as Native Development. 
+                I'm currently trying my hand out at blockchain and cloud computing and actively looking for oppertunities to work.
+                </p>
+            </div>
+          </div>
+            <div  class="button-section" my-1>
               <div class="container container_coffee">
                 <div class="coffee-header">
                   <div class="coffee-header__buttons coffee-header__button-one"></div>
@@ -57,20 +62,9 @@
                   <div class="coffee-medium__cup"></div>
                 </div>
                 <div class="coffee-footer"></div>
-                
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-                <h2>I'll give you code </h2>
-                <br>
-              <button class="button"  onclick="clickHam();">
-                Dont Click Me
-                <div class="button__horizontal"></div>
-                <div class="button__vertical"></div>
-              </button>
-            </div>
-          </div>
-          
-        </section>
-        <section>
+              </div>
+            </div><br>
+            <h2>Long story short, give me coffee I'll give you code :)</h2>
         </section>
       </div>
     </div>
@@ -80,6 +74,16 @@
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/main.js"></script>
+  <script language="Javascript">
+    window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Oops mobile site isn't ready yet, please visit on a computer.");              
+    } else {
+
+    }
+  }
+  </script>
 
 </body>
 
