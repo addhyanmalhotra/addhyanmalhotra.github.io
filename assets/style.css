@@ -210,8 +210,8 @@ body {
     transform: scaleY(0);
   }
   .container_coffee {
-    width: 300px;
-    height: 280px;
+    width: 300px !important;
+    height: 280px !important;
     position: relative;
 
     right: auto;
